@@ -16,8 +16,52 @@ h1{
     background-color: blueviolet;
     margin: 0 auto;
 }
+h1 span:hover{
+    color:black;
+}
 
 body{
     background-image: url("space.jpg");
     color:aliceblue;
+}
+
+.fancy{
+    color:aliceblue;
+}
+.drop_button {
+    background-color: plum;
+    color: slategray;
+    padding: 16px;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: relative;
+    background-color: plum;
+    min-width: 160;
+    z-index: 1;
+  }
+  .dropdown-content a {
+    font-size: 16x;
+    color:  slategray;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+.dropdown-content a:hover {
+    background-color: magenta;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .drop_button {
+  background-color: magenta;
 }
