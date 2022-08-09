@@ -1,4 +1,8 @@
+*{
+    text-align: center;
+}
+
 body{
-    background-color: darkblue;
+    background-image: url("space.jpg");
     color:aliceblue;
 }
